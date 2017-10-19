@@ -1,0 +1,9 @@
+div.rightColumn{
+  width: calc(100% - 310px);
+  height: calc(100vh - 80px - 60px);
+  margin: 0px;
+  padding: 30px;
+  display: block;
+  float: right;
+  overflow-y: auto;
+}

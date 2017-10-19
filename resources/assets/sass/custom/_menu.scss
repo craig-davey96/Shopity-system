@@ -1,0 +1,17 @@
+aside.leftMenu{
+  background: #FFF;
+  width: 310px;
+  height: calc(100vh - 80px);
+  display: block;
+  float: left;
+}
+aside.leftMenu div.user{
+  background: url('../images/navUserBkg.jpg') 50% 50% no-repeat;
+  width: 100%;
+  height: 126px;
+  margin: 0px;
+  padding: 12px 15px;
+  display: block;
+  clear: both;
+  background-size: cover !important;
+}
