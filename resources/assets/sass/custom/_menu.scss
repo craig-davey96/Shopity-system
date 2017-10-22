@@ -10,8 +10,60 @@ aside.leftMenu div.user{
   width: 100%;
   height: 126px;
   margin: 0px;
-  padding: 12px 15px;
+  padding: 12px 16px;
   display: block;
   clear: both;
   background-size: cover !important;
 }
+aside.leftMenu > ul{
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  clear: both;
+}
+aside.leftMenu > ul li{
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  clear: both;
+  border-bottom: 1px solid #161616;
+}
+aside.leftMenu > ul li > a{
+  margin: 0px;
+  padding: 23px 16px;
+  display: block;
+  clear: both;
+  font-size: 12px;
+  color: #000;
+  text-decoration: none !important;
+  line-height: 12px;
+  position: relative;
+}
+aside.leftMenu > ul li.dropdown > a:after{
+  width: 10px;
+  height: 10px;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  border-width: 2px 2px 0px 0px;
+  border-style: solid;
+  border-color: #000;
+  content: '';
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+  position: absolute;
+  right: 18px;
+  top: 21px;
+}
+aside.leftMenu > ul li.dropdown > ul{
+  margin: 0px;
+  padding: 0px;
+  display: none;
+  clear: both;
+}
+aside.leftMenu > ul li.dropdown > ul li{ border: 0px; }
+aside.leftMenu > ul li.dropdown > ul li a{ padding: 16px; background: #fafafa; }
+aside.leftMenu > ul li.dropdown > ul li:last-child{ border: 0px; }

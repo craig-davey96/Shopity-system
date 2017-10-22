@@ -1,0 +1,34 @@
+div.bladeOverlay{
+  background: rgba(0,0,0,0.4);
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  display: none;
+  clear: both;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+}
+div.blade{
+  width: 700px;
+  height: 100vh;
+  background: #FFF;
+  display: block;
+  clear: both;
+  position: absolute;
+  top: 0px;
+  right: -700px;
+}
+
+div.blade > .bladeHeader{
+  width: 100%;
+  height: 80px;
+  background: #eee;
+  display: block;
+  clear: both;
+  color: #FFF;
+  font-size: 20px;
+
+}

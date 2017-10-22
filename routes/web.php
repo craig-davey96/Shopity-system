@@ -17,3 +17,18 @@
 
 Route::get('/' , 'DashboardController@index');
 Route::get('/dashboard' , 'DashboardController@index');
+
+/**
+ * ---------------------------------- ORDERS ----------------------------------
+ */
+
+Route::get('/orders' , 'OrdersController@index');
+Route::get('/orders/order/{id}' , 'OrdersController@profile');
+Route::get('/orders/create' , 'OrdersController@create');
+
+/**
+ * ---------------------------------- SEARCH ----------------------------------
+ */
+
+
+Route::post('/search/products' , 'SearchController@productSearch');

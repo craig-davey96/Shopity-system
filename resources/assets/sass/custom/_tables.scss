@@ -1,0 +1,12 @@
+table.table th{
+  background: $dark-colour;
+  color: #FFF !important;
+  font-weight: normal;
+}
+table.table th , table.table th a{
+  color: #FFF !important;
+}
+table.table th i{ margin: 0 0 0 10px; }
+table.table{
+  font-size: 14px;
+}
